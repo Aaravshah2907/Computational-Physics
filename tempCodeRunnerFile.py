@@ -1,0 +1,1 @@
+plt.plot(range(1, len(bisect_errors)+1), [log10(err) for err in bisect_errors], label="Bisection")
